@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+img{
+  opacity: 0.2;
+}
+.border1{
+width: 400px;
+height: 500px;
+border: 1px solid black;
+float: left;
+}
+.border2{
+width: 450px;
+height: 500px;
+border: 1px solid black;
+float: right;
+}
+#allborder{
+  background-color: aqua;
+}

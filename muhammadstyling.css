@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(216, 255, 239);
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+margin-top: 0;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+color: rgb(67, 117, 100);
+}
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(102, 189, 160);
+}
+hr{
+    color: gray;
+    border-style:none;
+    border-width: 5px;
+    border-top-style: dotted;
+    width: 5%;
+    margin: 50px auto 50px auto;
+
+}
+.top-container{
+    background-color: rgb(169, 230, 205);
+    padding: 40px;
+    position: relative;
+    height: 600px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    margin-top: 0;
+}
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    margin-top: 0;
+    
+}
+.nav-menu{
+    font-size: small;
+}
+.logo{
+    float: left;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 0;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    color: rgb(82, 165, 139);
+    text-decoration: none;
+    padding: 35px;
+}
+nav li a:hover{
+    color: rgb(54, 69, 69);
+} 
+nav li a:active{
+    color: black
+}
+.skill-row{
+ width: 55%;   
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.computer{
+   width: 200px;
+   height: 200px; 
+   float: left;
+   margin-right: 30px;
+   border-radius: 100%;
+}
+.coder{
+    width: 200px;
+   height: 200px; 
+   float: right;
+   margin-left: 30px;
+   border-radius: 100%;
+}
+.p-second{
+    margin-top: 0px;
+}
+
+.btnlink{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    
+}
+.btn{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(88, 180, 164);
+    margin: 30px auto 30px auto;
+}
+.btn:hover{
+    transition: ease 0.4s all 0.1s;
+    transform: scale(1.1);
+}
+.btn:active{
+    background-color: rgb(63, 119, 101);
+}
+.footer-link {
+    text-decoration: none;
+    color: rgb(43, 85, 68);
+    font-size: 10px;
+    padding: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.bottom-container{
+    background-color: rgb(79, 173, 142);
+    height: 100px;
+}
+.register{
+    margin: auto auto auto 0;
+    margin-top: 40px;
+    font-size: 10px;
+    color: rgb(234, 236, 237);
+}
+
+
